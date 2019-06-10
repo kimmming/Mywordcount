@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>  
+    <style>
+    @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+  
+   
+    </style>
+    </head>
+
+
+<body>
+        <style>
+           
+                h1{
+                    color:rgba(46, 188, 245, 0.445);
+                    
+                    font-family: 'Nanum Gothic',sans-serif;
+                    text-align: center;
+                }
+            </style>
+
+        <h1><code>♪(*´θ｀)</code> 워드 카운터 <code>٩(ˊᗜˋ*)و</code>  </h1>
+            
+       
+
+
+        <center>
+    <a href="{%url 'about'%}">ABOUT</a>
+
+    <form action="{%url 'result'%}">
+            <textarea cols="40" rows="10" name="fulltext"></textarea>
+            <br>
+            <input type ="submit" value="단어 수 세기">
+        </form>
+    </center>
+</body>
+</html>
